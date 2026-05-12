@@ -1,0 +1,54 @@
+id: POL-IAM-001
+title: Политика управления паролями
+slug: password-policy
+domain: 02-access-control
+version: 1.0
+status: active
+maturity: core
+conditional: false
+typical_owner: CISO
+last_reviewed: 2026-05-11
+review_cycle_months: 12
+
+short_title: Пароли
+
+depends_on:
+  - POL-GOV-001                  # Политика информационной безопасности
+  - POL-MTA-001                  # Политика управления политиками
+
+related_to:
+  - POL-IAM-002                  # Политика MFA
+  - POL-IAM-003                  # Политика управления доступом
+  - POL-IAM-005                  # Политика управления учётными записями
+  - POL-IAM-008                  # Политика секретов и vault
+
+regulatory_refs:
+  - "ISO/IEC 27001:2022 — A.5.17 (Authentication information)"
+  - "ISO/IEC 27002:2022 — 5.17"
+  - "NIST SP 800-63B — Memorized Secret Authenticators"
+  - "NIST CSF 2.0 — PR.AA-01"
+  - "CIS Controls v8 — 6.3 (Require MFA for Externally-Exposed Applications)"
+  - "ФЗ-152 — ст. 19 ч. 1 п. 5 (защита от несанкционированного доступа)"
+  - "ФСТЭК Приказ 17 — ИАФ.1, ИАФ.4"
+  - "ФСТЭК Приказ 21 — ИАФ.1, ИАФ.4"
+
+packs:
+  - minimum-starter
+  - iso-27001-aligned
+  - 152-fz-aligned
+
+tags:
+  - access-control
+  - identity
+  - authentication
+  - mandatory
+
+authors:
+  - iMironRU
+contributors:
+  - iMironRU
+
+quality_signals:
+  industry_adoption: high
+  template_completeness: production-ready
+  examples_available: false

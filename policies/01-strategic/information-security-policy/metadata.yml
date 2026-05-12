@@ -1,0 +1,51 @@
+id: POL-GOV-001
+title: Политика информационной безопасности
+slug: information-security-policy
+domain: 01-strategic
+version: 1.0
+status: active
+maturity: core
+conditional: false
+typical_owner: CISO
+last_reviewed: 2026-05-11
+review_cycle_months: 12
+
+short_title: Политика ИБ
+
+depends_on: []                   # Это головной (зонтичный) документ
+
+related_to:
+  - POL-IAM-001                  # Политика паролей
+  - POL-DAT-001                  # Политика защиты данных
+  - POL-SEC-001                  # Политика реагирования на инциденты ИБ
+  - POL-HRM-001                  # Политика допустимого использования (AUP)
+  - POL-MTA-001                  # Политика управления политиками
+
+regulatory_refs:
+  - "ISO/IEC 27001:2022 — пп. 5.1, 5.2 (Leadership and Policy)"
+  - "ISO/IEC 27002:2022 — A.5.1 (Policies for information security)"
+  - "NIST CSF 2.0 — GV.PO (Governance — Policy)"
+  - "CIS Controls v8 — IG1 (общая основа)"
+  - "ФЗ-152 — ст. 18.1, 19"
+  - "ФСТЭК Приказ 17 — раздел 'Общие положения'"
+
+packs:
+  - minimum-starter
+  - iso-27001-aligned
+  - 152-fz-aligned
+
+tags:
+  - foundational
+  - umbrella-policy
+  - governance
+  - mandatory
+
+authors:
+  - iMironRU
+contributors:
+  - iMironRU
+
+quality_signals:
+  industry_adoption: high
+  template_completeness: production-ready
+  examples_available: false
