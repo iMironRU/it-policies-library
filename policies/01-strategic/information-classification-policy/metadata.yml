@@ -1,0 +1,54 @@
+id: POL-GOV-002
+title: Политика классификации информации
+slug: information-classification-policy
+domain: 01-strategic
+version: 1.0
+status: draft
+maturity: core
+conditional: false
+typical_owner: CISO
+last_reviewed: 2026-05-18
+review_cycle_months: 12
+
+short_title: Классификация информации
+
+depends_on:
+  - POL-GOV-001                  # Политика информационной безопасности
+
+related_to:
+  - POL-IAM-001                  # Политика управления паролями
+  - POL-DAT-001                  # Политика защиты данных
+  - POL-HRM-001                  # Политика допустимого использования (AUP)
+  - POL-SUP-001                  # Политика работы с подрядчиками
+
+regulatory_refs:
+  - "ISO/IEC 27001:2022 — A.5.12 (Classification of information)"
+  - "ISO/IEC 27001:2022 — A.5.13 (Labelling of information)"
+  - "ISO/IEC 27002:2022 — 5.12, 5.13"
+  - "NIST CSF 2.0 — ID.AM (Asset Management)"
+  - "ФЗ-152 — ст. 3 (категории ПДн), ст. 19"
+  - "ФЗ-98 — ст. 3–5 (режим коммерческой тайны)"
+  - "ФСТЭК Приказ 17 — ИАФ, ЗИС"
+  - "CIS Controls v8 — 3.2 (Establish and Maintain a Data Inventory)"
+
+packs:
+  - minimum-starter
+  - iso-27001-aligned
+  - 152-fz-aligned
+
+tags:
+  - foundational
+  - data-classification
+  - governance
+  - information-assets
+  - mandatory
+
+authors:
+  - iMironRU
+contributors:
+  - iMironRU
+
+quality_signals:
+  industry_adoption: high
+  template_completeness: production-ready
+  examples_available: false
