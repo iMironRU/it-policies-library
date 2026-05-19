@@ -1,0 +1,59 @@
+id: POL-SEC-001
+title: Политика реагирования на инциденты ИБ
+slug: incident-response-policy
+domain: 18-security-operations
+version: 1.0
+status: active
+maturity: core
+conditional: false
+typical_owner: CISO
+last_reviewed: 2026-05-19
+review_cycle_months: 12
+
+short_title: Реагирование на инциденты
+
+depends_on:
+  - POL-GOV-001                  # Политика информационной безопасности
+  - POL-MTA-001                  # Политика управления политиками
+
+related_to:
+  - POL-IAM-001                  # Политика управления паролями
+  - POL-IAM-003                  # Политика управления доступом
+  - POL-DAT-001                  # Политика защиты данных
+  - POL-DAT-002                  # Политика резервного копирования
+  - POL-OPS-006                  # Политика мониторинга и логирования
+  - POL-FOR-001                  # Политика forensic readiness
+  - POL-BCP-001                  # Политика непрерывности бизнеса
+  - POL-HRM-001                  # Политика допустимого использования (AUP)
+
+regulatory_refs:
+  - "ISO/IEC 27001:2022 — A.5.24, A.5.25, A.5.26, A.5.27, A.5.28 (Information security incident management)"
+  - "ISO/IEC 27035-1:2023 — Information security incident management: Principles and process"
+  - "NIST SP 800-61 Rev.2 — Computer Security Incident Handling Guide"
+  - "NIST CSF 2.0 — RS.MA, RS.AN, RS.CO, RS.MI, RS.IM (Respond function)"
+  - "CIS Controls v8 — Control 17 (Incident Response Management)"
+  - "ФЗ-152 — ст. 21 ч. 3.1 (уведомление РКН об инцидентах с ПДн в течение 72 часов)"
+  - "187-ФЗ — ст. 9, 10 (уведомление НКЦКИ для субъектов КИИ)"
+  - "ФСТЭК Приказ 17 — ОБЖ.1–ОБЖ.5 (обнаружение инцидентов и реагирование)"
+  - "ФСТЭК Приказ 21 — ОБЖ.1–ОБЖ.5"
+  - "ФСТЭК Приказ 239 (КИИ) — раздел ОИ (Оперативная ИБ)"
+
+packs:
+  - minimum-starter
+  - iso-27001-aligned
+  - 152-fz-aligned
+
+tags:
+  - incident-response
+  - security-operations
+  - mandatory
+
+authors:
+  - iMironRU
+contributors:
+  - iMironRU
+
+quality_signals:
+  industry_adoption: high
+  template_completeness: production-ready
+  examples_available: false
