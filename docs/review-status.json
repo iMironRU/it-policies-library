@@ -1,0 +1,13 @@
+{
+  "policies/01-strategic/information-classification-policy/TEMPLATE.md": {
+    "history": [
+      {
+        "date": "2026-05-22",
+        "model": "deepseek-v4-flash",
+        "file": "reviews/information-classification-policy/TEMPLATE.deepseek-v4-flash.2026-05-22.md"
+      }
+    ],
+    "last_reviewed": "2026-05-22",
+    "last_model": "deepseek-v4-flash"
+  }
+}
