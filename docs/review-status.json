@@ -5,9 +5,51 @@
         "date": "2026-05-22",
         "model": "deepseek-v4-flash",
         "file": "reviews/information-classification-policy/TEMPLATE.deepseek-v4-flash.2026-05-22.md"
+      },
+      {
+        "date": "2026-05-22",
+        "model": "deepseek-v4-pro",
+        "file": "reviews/information-classification-policy/TEMPLATE.deepseek-v4-pro.2026-05-22.md"
+      },
+      {
+        "date": "2026-05-22",
+        "model": "gpt-4o-2024-08-06",
+        "file": "reviews/information-classification-policy/TEMPLATE.gpt-4o-2024-08-06.2026-05-22.md"
       }
     ],
     "last_reviewed": "2026-05-22",
-    "last_model": "deepseek-v4-flash"
+    "last_model": "gpt-4o-2024-08-06"
+  },
+  "policies/01-strategic/information-security-policy/TEMPLATE.md": {
+    "history": [
+      {
+        "date": "2026-05-22",
+        "model": "deepseek-v4-flash",
+        "file": "reviews/information-security-policy/TEMPLATE.deepseek-v4-flash.2026-05-22.md"
+      },
+      {
+        "date": "2026-05-22",
+        "model": "gpt-4o-2024-08-06",
+        "file": "reviews/information-security-policy/TEMPLATE.gpt-4o-2024-08-06.2026-05-22.md"
+      }
+    ],
+    "last_reviewed": "2026-05-22",
+    "last_model": "gpt-4o-2024-08-06"
+  },
+  "policies/02-access-control/password-policy/TEMPLATE.md": {
+    "history": [
+      {
+        "date": "2026-05-22",
+        "model": "deepseek-v4-flash",
+        "file": "reviews/password-policy/TEMPLATE.deepseek-v4-flash.2026-05-22.md"
+      },
+      {
+        "date": "2026-05-22",
+        "model": "gpt-4o-2024-08-06",
+        "file": "reviews/password-policy/TEMPLATE.gpt-4o-2024-08-06.2026-05-22.md"
+      }
+    ],
+    "last_reviewed": "2026-05-22",
+    "last_model": "gpt-4o-2024-08-06"
   }
 }
