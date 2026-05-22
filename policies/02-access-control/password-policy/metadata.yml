@@ -2,7 +2,7 @@ id: POL-IAM-001
 title: Политика управления паролями
 slug: password-policy
 domain: 02-access-control
-version: 1.0
+version: 1.0.1
 status: active
 maturity: core
 conditional: false

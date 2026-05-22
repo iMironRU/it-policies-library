@@ -2,7 +2,7 @@ id: POL-GOV-002
 title: Политика классификации информации
 slug: information-classification-policy
 domain: 01-strategic
-version: 1.0
+version: 1.0.1
 status: draft
 maturity: core
 conditional: false

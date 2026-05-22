@@ -2,7 +2,7 @@ id: POL-GOV-001
 title: Политика информационной безопасности
 slug: information-security-policy
 domain: 01-strategic
-version: 1.0
+version: 1.0.1
 status: active
 maturity: core
 conditional: false
