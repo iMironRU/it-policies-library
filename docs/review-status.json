@@ -51,5 +51,21 @@
     ],
     "last_reviewed": "2026-05-22",
     "last_model": "gpt-4o-2024-08-06"
+  },
+  "policies/04-data-protection/personal-data-protection-policy/TEMPLATE.md": {
+    "history": [
+      {
+        "date": "2026-06-23",
+        "model": "deepseek-v4-flash",
+        "file": "reviews/personal-data-protection-policy/TEMPLATE.deepseek-v4-flash.2026-06-23.md"
+      },
+      {
+        "date": "2026-06-23",
+        "model": "gpt-4o-2024-08-06",
+        "file": "reviews/personal-data-protection-policy/TEMPLATE.gpt-4o-2024-08-06.2026-06-23.md"
+      }
+    ],
+    "last_reviewed": "2026-06-23",
+    "last_model": "gpt-4o-2024-08-06"
   }
 }
