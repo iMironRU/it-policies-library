@@ -83,5 +83,26 @@
     ],
     "last_reviewed": "2026-10-02",
     "last_model": "gpt-4o-2024-08-06"
+  },
+  "policies/18-security-operations/incident-response-policy/TEMPLATE.md": {
+    "history": [
+      {
+        "date": "2026-10-02",
+        "model": "gpt-4o-2024-08-06",
+        "file": "reviews/incident-response-policy/TEMPLATE.gpt-4o-2024-08-06.2026-10-02.md"
+      },
+      {
+        "date": "2026-10-02",
+        "model": "deepseek-flash",
+        "file": "reviews/incident-response-policy/TEMPLATE.deepseek-flash.2026-10-02.md"
+      },
+      {
+        "date": "2026-10-02",
+        "model": "deepseek-v4-pro",
+        "file": "reviews/incident-response-policy/TEMPLATE.deepseek-v4-pro.2026-10-02.md"
+      }
+    ],
+    "last_reviewed": "2026-10-02",
+    "last_model": "deepseek-v4-pro"
   }
 }
