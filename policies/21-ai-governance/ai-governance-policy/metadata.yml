@@ -1,0 +1,59 @@
+id: POL-AIG-001
+title: Политика управления искусственным интеллектом
+slug: ai-governance-policy
+domain: 21-ai-governance
+version: 1.0
+status: draft
+maturity: standard
+conditional: false
+typical_owner: CISO
+last_reviewed: 2026-10-02
+review_cycle_months: 6
+
+short_title: Управление ИИ
+
+depends_on:
+  - POL-GOV-001                  # Политика информационной безопасности
+  - POL-DAT-001                  # Политика защиты персональных данных
+
+related_to:
+  - POL-HRM-001                  # Политика допустимого использования
+  - POL-CLD-001                  # Политика облачной безопасности (ИИ как SaaS)
+  - POL-SUP-001                  # Политика управления подрядчиками (ИИ-провайдеры)
+  - POL-DEV-001                  # Политика безопасной разработки (разработка ИИ-систем)
+  - POL-SEC-001                  # Политика реагирования на инциденты
+  - POL-OPS-001                  # Политика управления изменениями
+
+regulatory_refs:
+  - "Указ Президента РФ №490 от 10.10.2019 (Национальная стратегия развития ИИ)"
+  - "ГОСТ Р 59277-2020 — Системы искусственного интеллекта"
+  - "ГОСТ Р 59276-2020 — Методы оценки качества ИИ"
+  - "ФЗ-152 — ст. 18, 19 (ПДн, автоматизированная обработка)"
+  - "ФЗ-152 — ст. 16 (запрет принятия решений исключительно на основе автоматической обработки, значимо влияющих на права)"
+  - "EU AI Act (ориентир для международных практик и дочерних компаний)"
+  - "NIST AI RMF 1.0 — AI Risk Management Framework"
+  - "ISO/IEC 42001:2023 — AI management systems"
+  - "ISO/IEC 23894:2023 — AI risk management"
+
+packs:
+  - iso-27001-aligned
+
+tags:
+  - ai
+  - llm
+  - generative-ai
+  - ai-governance
+  - responsible-ai
+  - shadow-ai
+  - data-leakage
+  - automation
+
+authors:
+  - iMironRU
+contributors:
+  - iMironRU
+
+quality_signals:
+  industry_adoption: growing
+  template_completeness: production-ready
+  examples_available: false
