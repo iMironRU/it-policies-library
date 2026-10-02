@@ -1,0 +1,55 @@
+id: POL-BCP-001
+title: Политика обеспечения непрерывности бизнеса и аварийного восстановления
+slug: business-continuity-policy
+domain: 05-continuity
+version: 1.0
+status: draft
+maturity: standard
+conditional: false
+typical_owner: CIO
+last_reviewed: 2026-10-02
+review_cycle_months: 12
+
+short_title: Непрерывность бизнеса
+
+depends_on:
+  - POL-GOV-001                  # Политика информационной безопасности
+  - POL-SEC-001                  # Политика реагирования на инциденты ИБ
+
+related_to:
+  - POL-DAT-001                  # Политика защиты персональных данных (резервные копии с ПДн)
+  - POL-OPS-001                  # Политика управления изменениями (изменения в критичных системах)
+  - POL-SUP-001                  # Политика управления подрядчиками (SLA поставщиков)
+
+regulatory_refs:
+  - "ISO 22301:2019 — Business Continuity Management Systems"
+  - "ISO/IEC 27001:2022 — A.5.29 (Information security during disruption)"
+  - "ISO/IEC 27001:2022 — A.5.30 (ICT readiness for business continuity)"
+  - "ISO/IEC 27001:2022 — A.8.13 (Information backup)"
+  - "ISO/IEC 27001:2022 — A.8.14 (Redundancy of information processing facilities)"
+  - "NIST SP 800-34 Rev.1 — Contingency Planning Guide for Federal Information Systems"
+  - "ФЗ-149 — ст. 16 (защита информации, в том числе обеспечение доступности)"
+  - "ФЗ-152 — ст. 19 ч. 1 п. 6 (резервирование и восстановление ПДн)"
+  - "ГОСТ Р ИСО 22301-2014 — Системы менеджмента непрерывности бизнеса"
+  - "ГОСТ Р 53647.2-2009 — Менеджмент непрерывности бизнеса. Требования"
+
+packs:
+  - iso-27001-aligned
+  - 152-fz-aligned
+
+tags:
+  - continuity
+  - disaster-recovery
+  - rto-rpo
+  - backup
+  - resilience
+
+authors:
+  - iMironRU
+contributors:
+  - iMironRU
+
+quality_signals:
+  industry_adoption: high
+  template_completeness: production-ready
+  examples_available: false
