@@ -1,0 +1,60 @@
+id: POL-DGV-001
+title: Политика управления данными
+slug: data-governance-policy
+domain: 03-data-governance
+version: 1.0
+status: draft
+maturity: standard
+conditional: false
+typical_owner: CDO
+last_reviewed: 2026-10-02
+review_cycle_months: 12
+
+short_title: Управление данными
+
+depends_on:
+  - POL-GOV-001                  # Политика информационной безопасности
+  - POL-GOV-002                  # Политика классификации информации
+
+related_to:
+  - POL-DAT-001                  # Политика защиты персональных данных
+  - POL-IAM-003                  # Политика управления доступом
+  - POL-IAM-002                  # Политика управления привилегированным доступом
+  - POL-BCP-001                  # Политика непрерывности бизнеса (RTO/RPO для критичных данных)
+  - POL-DEV-001                  # Политика безопасной разработки (данные в разработке)
+  - POL-CLD-001                  # Политика облачной безопасности (данные в облаке)
+  - POL-AIG-001                  # Политика управления ИИ (данные для обучения и инференса)
+  - POL-SEC-001                  # Политика реагирования на инциденты
+
+regulatory_refs:
+  - "ФЗ-152 — ст. 18.1 (меры по обеспечению безопасности ПДн, в т.ч. организационные)"
+  - "ФЗ-152 — ст. 5 (принципы обработки ПДн: цель, минимальность, сроки хранения)"
+  - "ФЗ-149 — ст. 16 (требования к защите информации)"
+  - "ГОСТ Р 57580.1-2017 — подраздел о защите информации (для финансовых организаций)"
+  - "ISO/IEC 27001:2022 — A.5.10, A.5.12, A.5.13 (использование, классификация и маркировка информации)"
+  - "ISO 8000 — стандарты качества данных"
+  - "DAMA-DMBOK v2 — Data Management Body of Knowledge"
+  - "NIST SP 800-188 — De-Identifying Government Datasets"
+
+packs:
+  - iso-27001-aligned
+
+tags:
+  - data-governance
+  - data-management
+  - data-quality
+  - data-lifecycle
+  - data-ownership
+  - master-data
+  - metadata
+  - data-catalog
+
+authors:
+  - iMironRU
+contributors:
+  - iMironRU
+
+quality_signals:
+  industry_adoption: growing
+  template_completeness: production-ready
+  examples_available: false
