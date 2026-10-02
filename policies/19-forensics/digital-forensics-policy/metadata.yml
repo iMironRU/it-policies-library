@@ -1,0 +1,45 @@
+id: POL-FOR-001
+title: Политика цифровой криминалистики и судебного удержания доказательств
+slug: digital-forensics-policy
+domain: 19-forensics
+version: 1.0
+status: draft
+maturity: advanced
+conditional: false
+typical_owner: CISO
+last_reviewed: 2026-10-02
+review_cycle_months: 12
+
+short_title: Криминалистика и Legal Hold
+
+depends_on:
+  - POL-GOV-001
+  - POL-SEC-001
+  - POL-DGV-001
+
+related_to:
+  - POL-DAT-001
+  - POL-IAM-002
+  - POL-IAM-003
+  - POL-SEC-002
+
+regulatory_refs:
+  - "ГПК РФ — ст. 71 (письменные доказательства)"
+  - "АПК РФ — ст. 75 (письменные доказательства)"
+  - "УПК РФ — ст. 81–82 (вещественные доказательства)"
+  - "УК РФ — ст. 294 (воспрепятствование правосудию)"
+  - "ФЗ-152 — ст. 6 (обработка ПДн при расследовании)"
+  - "Основы законодательства о нотариате — ст. 102–103"
+  - "ФСТЭК Приказ 17 — РЕГ.1, РЕГ.2 (регистрация событий в ГИС)"
+  - "ISO/IEC 27001:2022 — A.5.28 (сбор доказательств)"
+  - "ISO/IEC 27037:2012 — цифровые доказательства"
+
+tags:
+  - forensics
+  - legal-hold
+  - incident-response
+  - evidence
+  - investigations
+
+authors:
+  - iMironRU
