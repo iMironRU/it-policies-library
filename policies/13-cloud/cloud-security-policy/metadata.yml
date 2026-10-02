@@ -1,0 +1,67 @@
+id: POL-CLD-001
+title: Политика облачной безопасности
+slug: cloud-security-policy
+domain: 13-cloud
+version: 1.0
+status: draft
+maturity: standard
+conditional: false
+typical_owner: CISO
+last_reviewed: 2026-10-02
+review_cycle_months: 12
+
+short_title: Облачная безопасность
+
+depends_on:
+  - POL-GOV-001                  # Политика информационной безопасности
+  - POL-IAM-003                  # Политика управления доступом
+
+related_to:
+  - POL-NET-001                  # Политика сетевой безопасности (гибридные сети, VPN)
+  - POL-DAT-001                  # Политика защиты персональных данных (локализация ПДн)
+  - POL-OPS-001                  # Политика управления изменениями (изменения в облаке)
+  - POL-SUP-001                  # Политика управления подрядчиками (CSP как поставщик)
+  - POL-END-001                  # Политика безопасности конечных точек
+  - POL-DEV-001                  # Политика безопасной разработки (CI/CD в облаке)
+  - POL-SEC-001                  # Политика реагирования на инциденты
+
+regulatory_refs:
+  - "ISO/IEC 27001:2022 — A.5.23 (Information security for use of cloud services)"
+  - "ISO/IEC 27017:2015 — Cloud-specific controls"
+  - "ISO/IEC 27018:2019 — Protection of PII in public cloud"
+  - "CIS Controls v8 — 4 (Secure Configuration), 16 (Application Software Security)"
+  - "CIS Benchmarks — Cloud Foundations (AWS/Azure/GCP)"
+  - "NIST SP 800-144 — Guidelines on Security and Privacy in Public Cloud"
+  - "CSA Cloud Controls Matrix (CCM) v4"
+  - "ФЗ-149 — ст. 16 (защита информации)"
+  - "ФЗ-152 — ст. 18.1 ч. 5 (локализация ПДн граждан РФ на серверах в РФ)"
+  - "ФЗ-152 — ст. 6 ч. 3 (поручение обработки ПДн)"
+  - "ФЗ-152 — ст. 19 (меры по обеспечению безопасности ПДн)"
+  - "ФСТЭК Приказ 21 — меры защиты при облачной обработке ПДн"
+  - "Приказ Роскомнадзора №178 от 05.09.2013 (требования к оператору)"
+
+packs:
+  - iso-27001-aligned
+  - 152-fz-aligned
+
+tags:
+  - cloud
+  - iaas
+  - paas
+  - saas
+  - aws
+  - azure
+  - gcp
+  - shared-responsibility
+  - encryption
+  - data-residency
+
+authors:
+  - iMironRU
+contributors:
+  - iMironRU
+
+quality_signals:
+  industry_adoption: high
+  template_completeness: production-ready
+  examples_available: false
