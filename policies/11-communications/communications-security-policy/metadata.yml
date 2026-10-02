@@ -1,0 +1,49 @@
+id: POL-COM-001
+title: Политика безопасности корпоративных коммуникаций
+slug: communications-security-policy
+domain: 11-communications
+version: 1.0
+status: draft
+maturity: standard
+conditional: false
+typical_owner: CISO
+last_reviewed: 2026-10-02
+review_cycle_months: 12
+
+short_title: Коммуникации
+
+depends_on:
+  - POL-GOV-001
+  - POL-GOV-002
+
+related_to:
+  - POL-DAT-001
+  - POL-HRM-001
+  - POL-SEC-001
+  - POL-FOR-001
+  - POL-IAM-003
+  - POL-SAA-001
+
+regulatory_refs:
+  - "ФЗ-149 — ст. 16 (защита информации в ИС)"
+  - "ФЗ-152 — ч. 5 ст. 18 (локализация ПДн)"
+  - "ТК РФ — ст. 86–88 (обработка данных работников)"
+  - "ФЗ-374 — хранение коммуникаций (для ОРИ и операторов связи)"
+  - "ФЗ-63 — электронная подпись в деловой переписке"
+  - "ФСБ Приказ №66 — требования к СКЗИ"
+  - "ISO/IEC 27001:2022 — A.8.20–8.22 (сетевая безопасность)"
+  - "CIS Controls v8 — Control 9 (защита электронной почты и браузера)"
+
+packs:
+  - standard-starter
+
+tags:
+  - email
+  - messaging
+  - communications
+  - phishing
+  - data-protection
+  - dmarc
+
+authors:
+  - iMironRU
