@@ -1,0 +1,60 @@
+id: POL-NET-001
+title: Политика сетевой безопасности
+slug: network-security-policy
+domain: 09-network
+version: 1.0
+status: draft
+maturity: core
+conditional: false
+typical_owner: CISO
+last_reviewed: 2026-10-02
+review_cycle_months: 12
+
+short_title: Сетевая безопасность
+
+depends_on:
+  - POL-GOV-001                  # Политика информационной безопасности
+  - POL-IAM-003                  # Политика управления доступом
+
+related_to:
+  - POL-END-001                  # Политика безопасности конечных точек
+  - POL-SEC-001                  # Политика реагирования на инциденты ИБ
+  - POL-HRM-001                  # Политика допустимого использования (VPN, публичный Wi-Fi)
+  - POL-DEV-001                  # Политика безопасной разработки (сегментация dev/prod)
+  - POL-CLD-001                  # Политика облачной безопасности (гибридные сети)
+
+regulatory_refs:
+  - "ISO/IEC 27001:2022 — A.8.20 (Networks security)"
+  - "ISO/IEC 27001:2022 — A.8.21 (Security of network services)"
+  - "ISO/IEC 27001:2022 — A.8.22 (Segregation of networks)"
+  - "CIS Controls v8 — 12 (Network Infrastructure Management)"
+  - "CIS Controls v8 — 13 (Network Monitoring and Defense)"
+  - "NIST SP 800-53 Rev.5 — SC-7 (Boundary Protection)"
+  - "ФЗ-149 — ст. 16 (защита информации)"
+  - "ФЗ-152 — ст. 19 ч. 1 п. 3 (меры по предотвращению НСД, в том числе сетевые)"
+  - "ФСТЭК Приказ 21 — МЭ.1–МЭ.6 (межсетевые экраны), ЗИС.1–ЗИС.3"
+  - "ФСТЭК Приказ 17 — МЭ.1–МЭ.4, ЗИС.1–ЗИС.3"
+
+packs:
+  - minimum-starter
+  - iso-27001-aligned
+  - 152-fz-aligned
+
+tags:
+  - network
+  - firewall
+  - vpn
+  - segmentation
+  - wireless
+  - mandatory
+  - foundational
+
+authors:
+  - iMironRU
+contributors:
+  - iMironRU
+
+quality_signals:
+  industry_adoption: high
+  template_completeness: production-ready
+  examples_available: false
