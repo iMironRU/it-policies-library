@@ -1,0 +1,62 @@
+id: POL-DEV-001
+title: Политика безопасной разработки программного обеспечения
+slug: secure-development-policy
+domain: 12-development
+version: 1.0
+status: draft
+maturity: standard
+conditional: false
+typical_owner: CISO
+last_reviewed: 2026-10-02
+review_cycle_months: 12
+
+short_title: Безопасная разработка
+
+depends_on:
+  - POL-GOV-001                  # Политика информационной безопасности
+  - POL-GOV-002                  # Политика классификации информации
+
+related_to:
+  - POL-IAM-001                  # Политика управления паролями
+  - POL-IAM-003                  # Политика управления доступом
+  - POL-SEC-001                  # Политика реагирования на инциденты ИБ
+  - POL-SUP-001                  # Политика работы с подрядчиками
+  - POL-DAT-001                  # Политика защиты персональных данных
+
+regulatory_refs:
+  - "ГОСТ Р 56939-2016 — Разработка безопасного программного обеспечения. Общие требования"
+  - "ФСТЭК России — Методический документ «Руководство по организации процессов безопасной разработки ПО» (2021)"
+  - "ISO/IEC 27001:2022 — A.8.25 (Secure development life cycle)"
+  - "ISO/IEC 27001:2022 — A.8.26 (Application security requirements)"
+  - "ISO/IEC 27001:2022 — A.8.27 (Secure system architecture and engineering principles)"
+  - "ISO/IEC 27001:2022 — A.8.28 (Secure coding)"
+  - "ISO/IEC 27001:2022 — A.8.29 (Security testing in development and acceptance)"
+  - "ISO/IEC 27001:2022 — A.8.30 (Outsourced development)"
+  - "ISO/IEC 27001:2022 — A.8.31 (Separation of development, test and production environments)"
+  - "ISO/IEC 27001:2022 — A.8.32 (Change management)"
+  - "ISO/IEC 27001:2022 — A.8.34 (Protection of information systems during audit testing)"
+  - "NIST SP 800-218 — Secure Software Development Framework (SSDF)"
+  - "OWASP SAMM v2 — Software Assurance Maturity Model"
+  - "ФЗ-152 — ст. 19 ч. 1 (меры по обеспечению безопасности ПДн в ИСПДн)"
+  - "ФСТЭК Приказ 21 — меры защиты при разработке ИСПДн"
+
+packs:
+  - iso-27001-aligned
+  - 152-fz-aligned
+
+tags:
+  - development
+  - ssdlc
+  - appsec
+  - secure-coding
+  - devsecops
+
+authors:
+  - iMironRU
+contributors:
+  - iMironRU
+
+quality_signals:
+  industry_adoption: high
+  template_completeness: production-ready
+  examples_available: false

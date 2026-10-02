@@ -67,5 +67,21 @@
     ],
     "last_reviewed": "2026-06-23",
     "last_model": "gpt-4o-2024-08-06"
+  },
+  "policies/12-development/secure-development-policy/TEMPLATE.md": {
+    "history": [
+      {
+        "date": "2026-10-02",
+        "model": "deepseek-flash",
+        "file": "reviews/secure-development-policy/TEMPLATE.deepseek-flash.2026-10-02.md"
+      },
+      {
+        "date": "2026-10-02",
+        "model": "gpt-4o-2024-08-06",
+        "file": "reviews/secure-development-policy/TEMPLATE.gpt-4o-2024-08-06.2026-10-02.md"
+      }
+    ],
+    "last_reviewed": "2026-10-02",
+    "last_model": "gpt-4o-2024-08-06"
   }
 }
