@@ -1,0 +1,65 @@
+id: POL-IAM-002
+title: Политика управления привилегированным доступом
+slug: privileged-access-management-policy
+domain: 02-access-control
+version: 1.0
+status: draft
+maturity: standard
+conditional: false
+typical_owner: CISO
+last_reviewed: 2026-10-02
+review_cycle_months: 12
+
+short_title: Привилегированный доступ
+
+depends_on:
+  - POL-GOV-001                  # Политика информационной безопасности
+  - POL-IAM-001                  # Политика управления паролями
+  - POL-IAM-003                  # Политика управления доступом
+
+related_to:
+  - POL-DAT-001                  # Политика защиты персональных данных
+  - POL-DEV-001                  # Политика безопасной разработки (сервисные учётные записи)
+  - POL-OPS-001                  # Политика управления изменениями (изменения с привилегированным доступом)
+  - POL-SEC-001                  # Политика реагирования на инциденты
+  - POL-NET-001                  # Политика сетевой безопасности (jump-серверы, management-VLAN)
+  - POL-CLD-001                  # Политика облачной безопасности (cloud admin, root account)
+  - POL-SUP-001                  # Политика управления подрядчиками (vendor privileged access)
+
+regulatory_refs:
+  - "ФСТЭК Приказ №17 — УПД.1, УПД.2, УПД.3, УПД.4 (управление учётными записями)"
+  - "ФСТЭК Приказ №21 — УПД.1, УПД.2, УПД.3 (управление учётными записями)"
+  - "ФСТЭК Приказ №239 — УПД.1, УПД.2, УПД.3 (КИИ)"
+  - "ФСТЭК Приказ №17 — РЕГ.1, РЕГ.3 (регистрация действий администраторов)"
+  - "ФСТЭК Приказ №21 — РЕГ.1, РЕГ.3 (регистрация действий администраторов)"
+  - "ФЗ-152 — ст. 19 (технические меры защиты ПДн, в т.ч. контроль доступа)"
+  - "ФЗ-187 (ФЗ о КИИ) — ст. 10 (меры по обеспечению безопасности значимых объектов)"
+  - "ISO/IEC 27001:2022 — A.5.18, A.8.2 (управление привилегированным доступом)"
+  - "CIS Controls v8 — Control 5 (управление учётными записями), Control 12 (управление сетевой инфраструктурой)"
+  - "NIST SP 800-53 rev5 — AC-2, AC-3, AC-6 (управление доступом с минимальными привилегиями)"
+  - "NIST SP 800-63B — требования к аутентификации для привилегированных учётных записей"
+
+packs:
+  - iso-27001-aligned
+  - minimum-starter
+
+tags:
+  - access-control
+  - identity
+  - pam
+  - privileged-access
+  - admin-accounts
+  - service-accounts
+  - just-in-time
+  - session-recording
+  - password-vault
+
+authors:
+  - iMironRU
+contributors:
+  - iMironRU
+
+quality_signals:
+  industry_adoption: widespread
+  template_completeness: production-ready
+  examples_available: false
