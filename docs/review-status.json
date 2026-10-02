@@ -173,5 +173,21 @@
     ],
     "last_reviewed": "2026-10-02",
     "last_model": "gpt-4o-2024-08-06"
+  },
+  "policies/10-endpoint/endpoint-security-policy/TEMPLATE.md": {
+    "history": [
+      {
+        "date": "2026-10-02",
+        "model": "deepseek-flash",
+        "file": "reviews/endpoint-security-policy/TEMPLATE.deepseek-flash.2026-10-02.md"
+      },
+      {
+        "date": "2026-10-02",
+        "model": "gpt-4o-2024-08-06",
+        "file": "reviews/endpoint-security-policy/TEMPLATE.gpt-4o-2024-08-06.2026-10-02.md"
+      }
+    ],
+    "last_reviewed": "2026-10-02",
+    "last_model": "gpt-4o-2024-08-06"
   }
 }

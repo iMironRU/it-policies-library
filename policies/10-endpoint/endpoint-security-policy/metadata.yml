@@ -1,0 +1,61 @@
+id: POL-END-001
+title: Политика безопасности конечных точек
+slug: endpoint-security-policy
+domain: 10-endpoint
+version: 1.0
+status: draft
+maturity: core
+conditional: false
+typical_owner: CISO
+last_reviewed: 2026-10-02
+review_cycle_months: 12
+
+short_title: Конечные точки
+
+depends_on:
+  - POL-GOV-001                  # Политика информационной безопасности
+  - POL-IAM-003                  # Политика управления доступом
+
+related_to:
+  - POL-IAM-001                  # Политика управления паролями
+  - POL-HRM-001                  # Политика допустимого использования (BYOD)
+  - POL-SEC-001                  # Политика реагирования на инциденты ИБ
+  - POL-NET-001                  # Политика сетевой безопасности
+
+regulatory_refs:
+  - "ISO/IEC 27001:2022 — A.8.1 (User endpoint devices)"
+  - "ISO/IEC 27001:2022 — A.8.7 (Protection against malware)"
+  - "ISO/IEC 27001:2022 — A.8.8 (Management of technical vulnerabilities)"
+  - "ISO/IEC 27001:2022 — A.8.9 (Configuration management)"
+  - "ISO/IEC 27001:2022 — A.8.11 (Data masking)"
+  - "CIS Controls v8 — 2 (Inventory and Control of Software Assets)"
+  - "CIS Controls v8 — 4 (Secure Configuration of Enterprise Assets)"
+  - "CIS Controls v8 — 7 (Continuous Vulnerability Management)"
+  - "CIS Controls v8 — 10 (Malware Defenses)"
+  - "ФЗ-152 — ст. 19 ч. 1 п. 5 (защита от НСД к ПДн на конечных устройствах)"
+  - "ФСТЭК Приказ 21 — АВЗ.1, АВЗ.2, ОБ.1, ЗИС.5"
+  - "ФСТЭК Приказ 17 — АВЗ.1, ОБ.1"
+
+packs:
+  - minimum-starter
+  - iso-27001-aligned
+  - 152-fz-aligned
+
+tags:
+  - endpoint
+  - antivirus
+  - patching
+  - encryption
+  - mdm
+  - mandatory
+  - foundational
+
+authors:
+  - iMironRU
+contributors:
+  - iMironRU
+
+quality_signals:
+  industry_adoption: high
+  template_completeness: production-ready
+  examples_available: false
