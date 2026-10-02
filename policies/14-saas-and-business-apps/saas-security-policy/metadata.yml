@@ -1,0 +1,47 @@
+id: POL-SAA-001
+title: Политика безопасности SaaS и бизнес-приложений
+slug: saas-security-policy
+domain: 14-saas-and-business-apps
+version: 1.0
+status: draft
+maturity: standard
+conditional: false
+typical_owner: CISO
+last_reviewed: 2026-10-02
+review_cycle_months: 12
+
+short_title: SaaS и приложения
+
+depends_on:
+  - POL-GOV-001
+  - POL-GOV-002
+  - POL-IAM-003
+
+related_to:
+  - POL-DAT-001
+  - POL-IAM-002
+  - POL-SUP-001
+  - POL-SEC-001
+  - POL-DEV-001
+
+regulatory_refs:
+  - "ФЗ-152 — ч. 5 ст. 18 (локализация ПДн)"
+  - "ФЗ-152 — ст. 6 (поручение обработки ПДн)"
+  - "ФЗ-149 — ст. 16 (защита информации в ИС)"
+  - "ФСТЭК Приказ 17 — УПД.1, УПД.3 (управление учётными записями)"
+  - "ISO/IEC 27001:2022 — A.5.23 (безопасность облачных сервисов)"
+  - "CIS Controls v8 — Control 3 (Data Protection)"
+  - "CIS Controls v8 — Control 6 (Access Control Management)"
+
+packs:
+  - standard-starter
+
+tags:
+  - saas
+  - cloud
+  - access-management
+  - shadow-it
+  - data-protection
+
+authors:
+  - iMironRU
