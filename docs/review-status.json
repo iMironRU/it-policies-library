@@ -141,5 +141,21 @@
     ],
     "last_reviewed": "2026-10-02",
     "last_model": "deepseek-flash"
+  },
+  "policies/15-suppliers/supplier-management-policy/TEMPLATE.md": {
+    "history": [
+      {
+        "date": "2026-10-02",
+        "model": "deepseek-flash",
+        "file": "reviews/supplier-management-policy/TEMPLATE.deepseek-flash.2026-10-02.md"
+      },
+      {
+        "date": "2026-10-02",
+        "model": "gpt-4o-2024-08-06",
+        "file": "reviews/supplier-management-policy/TEMPLATE.gpt-4o-2024-08-06.2026-10-02.md"
+      }
+    ],
+    "last_reviewed": "2026-10-02",
+    "last_model": "gpt-4o-2024-08-06"
   }
 }
