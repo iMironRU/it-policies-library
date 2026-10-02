@@ -104,5 +104,21 @@
     ],
     "last_reviewed": "2026-10-02",
     "last_model": "deepseek-v4-pro"
+  },
+  "policies/02-access-control/access-management-policy/TEMPLATE.md": {
+    "history": [
+      {
+        "date": "2026-10-02",
+        "model": "gpt-4o-2024-08-06",
+        "file": "reviews/access-management-policy/TEMPLATE.gpt-4o-2024-08-06.2026-10-02.md"
+      },
+      {
+        "date": "2026-10-02",
+        "model": "deepseek-v4-pro",
+        "file": "reviews/access-management-policy/TEMPLATE.deepseek-v4-pro.2026-10-02.md"
+      }
+    ],
+    "last_reviewed": "2026-10-02",
+    "last_model": "deepseek-v4-pro"
   }
 }

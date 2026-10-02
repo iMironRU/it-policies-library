@@ -1,0 +1,61 @@
+id: POL-IAM-003
+title: Политика управления доступом
+slug: access-management-policy
+domain: 02-access-control
+version: 1.0
+status: draft
+maturity: core
+conditional: false
+typical_owner: CISO
+last_reviewed: 2026-10-02
+review_cycle_months: 12
+
+short_title: Управление доступом
+
+depends_on:
+  - POL-GOV-001                  # Политика информационной безопасности
+  - POL-GOV-002                  # Политика классификации информации
+
+related_to:
+  - POL-IAM-001                  # Политика управления паролями
+  - POL-DAT-001                  # Политика защиты персональных данных
+  - POL-DEV-001                  # Политика безопасной разработки (доступ к репозиториям)
+  - POL-SEC-001                  # Политика реагирования на инциденты ИБ
+  - POL-HRM-001                  # Политика допустимого использования (жизненный цикл сотрудника)
+
+regulatory_refs:
+  - "ISO/IEC 27001:2022 — A.5.15 (Access control)"
+  - "ISO/IEC 27001:2022 — A.5.16 (Identity management)"
+  - "ISO/IEC 27001:2022 — A.5.18 (Access rights)"
+  - "ISO/IEC 27001:2022 — A.8.2 (Privileged access rights)"
+  - "ISO/IEC 27001:2022 — A.8.3 (Information access restriction)"
+  - "ISO/IEC 27001:2022 — A.8.5 (Secure authentication)"
+  - "NIST SP 800-53 Rev. 5 — AC-2 (Account Management)"
+  - "NIST SP 800-53 Rev. 5 — AC-6 (Least Privilege)"
+  - "NIST CSF 2.0 — PR.AA (Identities and Credentials)"
+  - "CIS Controls v8 — 5 (Account Management), 6 (Access Control Management)"
+  - "ФЗ-152 — ст. 19 ч. 1 п. 5 (защита от несанкционированного доступа к ПДн)"
+  - "ФСТЭК Приказ 17 — ИАФ.1, УПД.1–УПД.4"
+  - "ФСТЭК Приказ 21 — ИАФ.1, УПД.1–УПД.4"
+
+packs:
+  - minimum-starter
+  - iso-27001-aligned
+  - 152-fz-aligned
+
+tags:
+  - access-control
+  - identity
+  - least-privilege
+  - mandatory
+  - foundational
+
+authors:
+  - iMironRU
+contributors:
+  - iMironRU
+
+quality_signals:
+  industry_adoption: high
+  template_completeness: production-ready
+  examples_available: false
