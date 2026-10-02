@@ -4,8 +4,10 @@
 # Использование:
 #   ./scripts/review.sh <файл>                          — DeepSeek (по умолчанию)
 #   ./scripts/review.sh <файл> gpt-4o                  — OpenAI GPT-4o
-#   ./scripts/review.sh <файл> gemini-2.5-pro          — Google Gemini 2.5 Pro
-#   ./scripts/review.sh <файл> deepseek-v3             — DeepSeek V3
+#   ./scripts/review.sh <файл> gemini-3.1-pro-preview   — Google Gemini 3.1 Pro
+#   ./scripts/review.sh <файл> gemini-3.8-flash         — Google Gemini 3.8 Flash
+#   ./scripts/review.sh <файл> deepseek-v4-flash        — DeepSeek V4 Flash (по умолчанию)
+#   ./scripts/review.sh <файл> deepseek-v4-pro          — DeepSeek V4 Pro
 #
 # Примеры:
 #   ./scripts/review.sh policies/01-strategic/information-classification-policy/TEMPLATE.md
