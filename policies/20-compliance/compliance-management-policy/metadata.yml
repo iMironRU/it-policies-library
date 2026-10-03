@@ -1,0 +1,53 @@
+id: POL-CMP-001
+title: Политика управления соответствием требованиям
+slug: compliance-management-policy
+domain: 20-compliance
+version: 1.0
+status: draft
+maturity: standard
+conditional: false
+typical_owner: CISO
+last_reviewed: 2026-10-03
+review_cycle_months: 12
+
+short_title: Комплаенс
+
+depends_on:
+  - POL-GOV-001
+  - POL-GOV-002
+
+related_to:
+  - POL-DAT-001
+  - POL-SEC-001
+  - POL-FOR-001
+  - POL-IAM-001
+  - POL-IAM-002
+  - POL-IAM-003
+
+regulatory_refs:
+  - "ФЗ-152 — ст. 18.1 (меры по обеспечению безопасности ПДн), ст. 21 (уведомление при инцидентах)"
+  - "ФЗ-149 — ст. 16 (защита информации в ИС)"
+  - "ФЗ-187 — требования к субъектам КИИ"
+  - "ФСТЭК Приказ №17 — требования к ГИС"
+  - "ФСТЭК Приказ №21 — требования к ИСПДн"
+  - "ФСТЭК Приказ №239 — требования к значимым объектам КИИ"
+  - "ФСБ Приказ №66 — требования к СКЗИ"
+  - "ISO/IEC 27001:2022 — A.5.31–5.36 (соответствие требованиям)"
+  - "ISO/IEC 27001:2022 — A.5.20 (цепочки поставок)"
+  - "CIS Controls v8 — Control 3 (защита данных), Control 17 (управление инцидентами)"
+  - "ГОСТ Р 57580.1-2017 — для финансовых организаций (при применимости)"
+
+packs:
+  - standard-starter
+
+tags:
+  - compliance
+  - regulatory
+  - audit
+  - risk
+  - фстэк
+  - ркн
+  - data-protection
+
+authors:
+  - iMironRU
