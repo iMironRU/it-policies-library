@@ -1,0 +1,44 @@
+id: POL-SVC-001
+title: Политика управления IT-услугами
+slug: it-service-management-policy
+domain: 08-itsm
+version: 1.0
+status: draft
+maturity: standard
+conditional: false
+typical_owner: CIO
+last_reviewed: 2026-10-03
+review_cycle_months: 12
+
+short_title: ITSM
+
+depends_on:
+  - POL-GOV-001
+
+related_to:
+  - POL-OPS-001
+  - POL-SEC-001
+  - POL-BCP-001
+  - POL-IAM-001
+  - POL-IAM-003
+  - POL-HRM-001
+
+regulatory_refs:
+  - "ISO/IEC 20000-1:2018 — IT service management system requirements"
+  - "ITIL 4 — IT service management best practices"
+  - "ISO/IEC 27001:2022 — A.5.35 (independent review of information security)"
+  - "ТК РФ — трудовые отношения при управлении рабочими местами сотрудников"
+
+packs:
+  - standard-starter
+
+tags:
+  - itsm
+  - service-desk
+  - sla
+  - incidents
+  - service-catalog
+  - cmdb
+
+authors:
+  - iMironRU
