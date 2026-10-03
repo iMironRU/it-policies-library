@@ -2,7 +2,7 @@ id: POL-SVC-001
 title: Политика управления IT-услугами
 slug: it-service-management-policy
 domain: 08-itsm
-version: 1.0
+version: 1.0.1
 status: draft
 maturity: standard
 conditional: false

@@ -20,6 +20,7 @@ related_to:
   - POL-DAT-001                  # Политика защиты персональных данных (резервные копии с ПДн)
   - POL-OPS-001                  # Политика управления изменениями (изменения в критичных системах)
   - POL-SUP-001                  # Политика управления подрядчиками (SLA поставщиков)
+  - POL-DGV-001                  # Data Governance (RTO/RPO для критичных данных)
 
 regulatory_refs:
   - "ISO 22301:2019 — Business Continuity Management Systems"

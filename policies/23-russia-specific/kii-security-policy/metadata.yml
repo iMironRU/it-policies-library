@@ -2,7 +2,7 @@ id: POL-RUS-001
 title: Политика обеспечения безопасности объектов критической информационной инфраструктуры
 slug: kii-security-policy
 domain: 23-russia-specific
-version: 1.0
+version: 1.0.1
 status: draft
 maturity: standard
 conditional: true

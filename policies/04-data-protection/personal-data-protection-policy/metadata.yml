@@ -2,7 +2,7 @@ id: POL-DAT-001
 title: Политика защиты персональных данных
 slug: personal-data-protection-policy
 domain: 04-data-protection
-version: 1.0
+version: 1.0.1
 status: draft
 maturity: core
 conditional: false
@@ -22,6 +22,7 @@ related_to:
   - POL-SEC-001                  # Политика реагирования на инциденты ИБ
   - POL-SUP-001                  # Политика работы с подрядчиками
   - POL-HRM-001                  # Политика допустимого использования
+  - POL-DGV-001                  # Data Governance (жизненный цикл данных, сроки хранения ПДн)
 
 regulatory_refs:
   - "ФЗ-152 — полностью (основной регулирующий закон)"

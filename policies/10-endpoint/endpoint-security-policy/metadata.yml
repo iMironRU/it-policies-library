@@ -2,7 +2,7 @@ id: POL-END-001
 title: Политика безопасности конечных точек
 slug: endpoint-security-policy
 domain: 10-endpoint
-version: 1.0
+version: 1.0.1
 status: draft
 maturity: core
 conditional: false

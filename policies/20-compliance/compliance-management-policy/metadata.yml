@@ -2,7 +2,7 @@ id: POL-CMP-001
 title: Политика управления соответствием требованиям
 slug: compliance-management-policy
 domain: 20-compliance
-version: 1.0
+version: 1.0.1
 status: draft
 maturity: standard
 conditional: false
