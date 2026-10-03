@@ -1,0 +1,38 @@
+id: POL-MTA-001
+title: Политика управления IT-политиками (Фреймворк управления политиками)
+slug: policy-management-framework
+domain: 24-meta-policies
+version: 1.0
+status: draft
+maturity: standard
+conditional: false
+typical_owner: CISO
+last_reviewed: 2026-10-03
+review_cycle_months: 24
+
+short_title: Управление политиками
+
+depends_on: []
+
+related_to:
+  - POL-GOV-001
+  - POL-CMP-001
+
+regulatory_refs:
+  - "ISO/IEC 27001:2022 — A.5.1 (policies for information security), A.5.35 (independent review)"
+  - "ISO/IEC 27002:2022 — 5.1 (policies for information security)"
+  - "ГОСТ Р ИСО/МЭК 27001-2021 — A.5.1"
+  - "NIST SP 800-53 Rev.5 — PM-9 (risk management strategy), PL-1 (policy and procedures)"
+
+packs:
+  - standard-starter
+
+tags:
+  - meta
+  - policy-management
+  - governance
+  - lifecycle
+  - exceptions
+
+authors:
+  - iMironRU
