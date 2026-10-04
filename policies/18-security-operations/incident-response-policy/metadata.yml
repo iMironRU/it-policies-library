@@ -2,7 +2,7 @@ id: POL-SEC-001
 title: Политика реагирования на инциденты информационной безопасности
 slug: incident-response-policy
 domain: 18-security-operations
-version: 1.0
+version: 1.0.1
 status: draft
 maturity: core
 conditional: false

@@ -2,7 +2,7 @@ id: POL-DAT-001
 title: Политика защиты персональных данных
 slug: personal-data-protection-policy
 domain: 04-data-protection
-version: 1.0.1
+version: 1.0.2
 status: draft
 maturity: core
 conditional: false

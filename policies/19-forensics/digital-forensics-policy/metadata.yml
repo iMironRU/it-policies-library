@@ -2,7 +2,7 @@ id: POL-FOR-001
 title: Политика цифровой криминалистики и судебного удержания доказательств
 slug: digital-forensics-policy
 domain: 19-forensics
-version: 1.0
+version: 1.0.1
 status: draft
 maturity: advanced
 conditional: false
