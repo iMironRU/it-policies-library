@@ -1,0 +1,43 @@
+id: POL-ARC-001
+title: Политика управления IT-архитектурой
+slug: it-architecture-policy
+domain: 06-architecture
+version: 1.0
+status: draft
+maturity: standard
+conditional: false
+typical_owner: CIO
+last_reviewed: 2026-10-03
+review_cycle_months: 12
+
+short_title: IT-архитектура
+
+depends_on:
+  - POL-GOV-001
+
+related_to:
+  - POL-SEC-001
+  - POL-OPS-001
+  - POL-DEV-001
+  - POL-CLD-001
+  - POL-SUP-001
+
+regulatory_refs:
+  - "ISO/IEC 42010:2011 — Architecture description of systems and software"
+  - "TOGAF 10 — The Open Group Architecture Framework"
+  - "ISO/IEC 27001:2022 — A.8.9 (configuration management), A.8.25 (secure development lifecycle)"
+  - "ГОСТ Р 57100-2016 / ISO/IEC/IEEE 42010:2011 — Описание архитектуры систем и программного обеспечения"
+
+packs:
+  - standard-starter
+
+tags:
+  - architecture
+  - enterprise-architecture
+  - technology-standards
+  - adr
+  - technical-debt
+  - api
+
+authors:
+  - iMironRU

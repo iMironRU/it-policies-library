@@ -1,0 +1,55 @@
+id: POL-SUP-001
+title: Политика управления подрядчиками
+slug: supplier-management-policy
+domain: 15-suppliers
+version: 1.0
+status: draft
+maturity: standard
+conditional: false
+typical_owner: CISO
+last_reviewed: 2026-10-02
+review_cycle_months: 12
+
+short_title: Подрядчики
+
+depends_on:
+  - POL-GOV-001                  # Политика информационной безопасности
+  - POL-GOV-002                  # Политика классификации информации
+  - POL-IAM-003                  # Политика управления доступом
+
+related_to:
+  - POL-DAT-001                  # Политика защиты персональных данных
+  - POL-SEC-001                  # Политика реагирования на инциденты ИБ
+  - POL-HRM-001                  # Политика допустимого использования
+
+regulatory_refs:
+  - "ISO/IEC 27001:2022 — A.5.19 (Information security in supplier relationships)"
+  - "ISO/IEC 27001:2022 — A.5.20 (Addressing IS within supplier agreements)"
+  - "ISO/IEC 27001:2022 — A.5.21 (Managing IS in the ICT supply chain)"
+  - "ISO/IEC 27001:2022 — A.5.22 (Monitoring, review and change management of supplier services)"
+  - "ГОСТ Р ИСО/МЭК 27036-1 — ИБ в отношениях с поставщиками"
+  - "ФЗ-152 — ст. 6 ч. 3 (поручение обработки ПДн третьим лицам)"
+  - "ФЗ-152 — ст. 7 (конфиденциальность ПДн)"
+  - "ФЗ-98 — ст. 11 (охрана коммерческой тайны контрагентами)"
+  - "ФЗ-149 — ст. 16 (защита информации)"
+
+packs:
+  - iso-27001-aligned
+  - 152-fz-aligned
+
+tags:
+  - suppliers
+  - third-party
+  - vendor-management
+  - supply-chain
+  - contracts
+
+authors:
+  - iMironRU
+contributors:
+  - iMironRU
+
+quality_signals:
+  industry_adoption: high
+  template_completeness: production-ready
+  examples_available: false

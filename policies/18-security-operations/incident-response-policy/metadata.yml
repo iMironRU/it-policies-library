@@ -1,0 +1,59 @@
+id: POL-SEC-001
+title: Политика реагирования на инциденты информационной безопасности
+slug: incident-response-policy
+domain: 18-security-operations
+version: 1.0.1
+status: draft
+maturity: core
+conditional: false
+typical_owner: CISO
+last_reviewed: 2026-10-02
+review_cycle_months: 12
+
+short_title: Реагирование на инциденты ИБ
+
+depends_on:
+  - POL-GOV-001                  # Политика информационной безопасности
+  - POL-GOV-002                  # Политика классификации информации
+
+related_to:
+  - POL-DAT-001                  # Политика защиты персональных данных (уведомление РКН)
+  - POL-DEV-001                  # Политика безопасной разработки (инциденты в коде)
+  - POL-IAM-001                  # Политика управления паролями (компрометация учётных данных)
+  - POL-BCP-001                  # Политика непрерывности бизнеса (при критических инцидентах)
+  - POL-RUS-001                  # Политика безопасности объектов КИИ (инциденты КИИ, НКЦКИ)
+  - POL-FOR-001                  # Политика forensics (сбор и хранение доказательств)
+
+regulatory_refs:
+  - "ФЗ-152 — ст. 21 (уведомление РКН об утечках ПДн — 12 ч / 24 ч, ред. ФЗ-420 от 30.11.2024)"
+  - "ФЗ-187 — ст. 9 (уведомление ФСБ/НКЦКИ об инцидентах на объектах КИИ)"
+  - "Приказ ФСБ России от 19.06.2023 № 338 — порядок уведомления об инцидентах на объектах КИИ"
+  - "ГОСТ Р 59547-2021 — Защита информации. Мониторинг информационной безопасности"
+  - "ISO/IEC 27001:2022 — A.5.24 (Information security incident management planning)"
+  - "ISO/IEC 27001:2022 — A.5.25 (Assessment and decision on information security events)"
+  - "ISO/IEC 27001:2022 — A.5.26 (Response to information security incidents)"
+  - "ISO/IEC 27001:2022 — A.5.27 (Learning from information security incidents)"
+  - "ISO/IEC 27001:2022 — A.5.28 (Collection of evidence)"
+  - "ISO/IEC 27035-1:2023 — Information security incident management (principles)"
+  - "NIST SP 800-61r3 — Incident Handling Guide"
+
+packs:
+  - minimum-starter
+  - iso-27001-aligned
+  - 152-fz-aligned
+
+tags:
+  - incident-response
+  - security-operations
+  - mandatory
+  - foundational
+
+authors:
+  - iMironRU
+contributors:
+  - iMironRU
+
+quality_signals:
+  industry_adoption: high
+  template_completeness: production-ready
+  examples_available: false

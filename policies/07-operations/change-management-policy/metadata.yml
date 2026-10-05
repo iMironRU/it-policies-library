@@ -1,0 +1,59 @@
+id: POL-OPS-001
+title: Политика управления изменениями в IT-инфраструктуре
+slug: change-management-policy
+domain: 07-operations
+version: 1.0
+status: draft
+maturity: core
+conditional: false
+typical_owner: IT-директор
+last_reviewed: 2026-10-02
+review_cycle_months: 12
+
+short_title: Управление изменениями
+
+depends_on:
+  - POL-GOV-001                  # Политика информационной безопасности
+
+related_to:
+  - POL-NET-001                  # Политика сетевой безопасности (изменения в сетях)
+  - POL-END-001                  # Политика безопасности конечных точек
+  - POL-BCP-001                  # Политика непрерывности бизнеса (freeze, rollback)
+  - POL-SEC-001                  # Политика реагирования на инциденты (emergency changes)
+  - POL-DEV-001                  # Политика безопасной разработки (деплой в прод)
+  - POL-CLD-001                  # Политика облачной безопасности (изменения в облаке)
+
+regulatory_refs:
+  - "ISO/IEC 27001:2022 — A.8.32 (Change management)"
+  - "ISO 20000-1:2018 — 8.5 (Change management)"
+  - "ITIL v4 — Change Enablement practice"
+  - "CIS Controls v8 — 4.1 (Establish and Maintain a Secure Configuration Process)"
+  - "NIST SP 800-53 Rev.5 — CM-3 (Configuration Change Control)"
+  - "NIST SP 800-53 Rev.5 — CM-4 (Impact Analyses)"
+  - "ФЗ-149 — ст. 16 (защита информации, в т.ч. при изменениях инфраструктуры)"
+  - "ФЗ-152 — ст. 19 ч. 2 (оценка эффективности мер защиты ПДн при изменениях)"
+  - "ФСТЭК Приказ 21 — УКФ.1–УКФ.6 (управление конфигурацией ИСПДн)"
+  - "ФСТЭК Приказ 17 — УКФ.1–УКФ.4 (управление конфигурацией ГИС)"
+
+packs:
+  - minimum-starter
+  - iso-27001-aligned
+
+tags:
+  - change-management
+  - itil
+  - configuration
+  - release
+  - cab
+  - mandatory
+  - foundational
+
+authors:
+  - iMironRU
+contributors:
+  - iMironRU
+
+quality_signals:
+  industry_adoption: high
+  template_completeness: production-ready
+  examples_available: false

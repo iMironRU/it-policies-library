@@ -2,7 +2,7 @@ id: POL-IAM-001
 title: Политика управления паролями
 slug: password-policy
 domain: 02-access-control
-version: 1.0
+version: 1.0.1
 status: active
 maturity: core
 conditional: false
@@ -19,8 +19,8 @@ depends_on:
 related_to:
   - POL-IAM-002                  # Политика MFA
   - POL-IAM-003                  # Политика управления доступом
-  - POL-IAM-005                  # Политика управления учётными записями
-  - POL-IAM-008                  # Политика секретов и vault
+  # POL-IAM-005 (Политика управления учётными записями) — в разработке, не создана
+  # POL-IAM-008 (Политика секретов и vault) — в разработке, не создана
 
 regulatory_refs:
   - "ISO/IEC 27001:2022 — A.5.17 (Authentication information)"

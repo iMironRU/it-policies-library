@@ -1,0 +1,44 @@
+id: POL-FIN-001
+title: Политика управления IT-финансами
+slug: it-financial-management-policy
+domain: 16-it-finance
+version: 1.0
+status: draft
+maturity: standard
+conditional: false
+typical_owner: CIO
+last_reviewed: 2026-10-03
+review_cycle_months: 12
+
+short_title: IT-финансы
+
+depends_on:
+  - POL-GOV-001
+
+related_to:
+  - POL-ARC-001
+  - POL-SUP-001
+  - POL-OPS-001
+
+regulatory_refs:
+  - "ФЗ-402 — Федеральный закон о бухгалтерском учёте (ст. 5, 9 — первичные документы)"
+  - "НК РФ гл. 25 — налог на прибыль: классификация расходов (CAPEX vs OPEX)"
+  - "ФСБУ 6/2020 — Основные средства (капитализация IT-активов)"
+  - "ФСБУ 14/2022 — Нематериальные активы (ПО, лицензии)"
+  - "ISO/IEC 20000-1:2018 — 7.1 (финансирование IT-услуг)"
+  - "ITIL 4 — Financial management for IT services"
+
+packs:
+  - standard-starter
+
+tags:
+  - finance
+  - budget
+  - capex
+  - opex
+  - licensing
+  - procurement
+  - tco
+
+authors:
+  - iMironRU

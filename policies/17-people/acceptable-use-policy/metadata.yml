@@ -1,0 +1,59 @@
+id: POL-HRM-001
+title: Политика допустимого использования информационных ресурсов
+slug: acceptable-use-policy
+domain: 17-people
+version: 1.0
+status: draft
+maturity: core
+conditional: false
+typical_owner: CISO
+last_reviewed: 2026-10-02
+review_cycle_months: 12
+
+short_title: Допустимое использование
+
+depends_on:
+  - POL-GOV-001                  # Политика информационной безопасности
+  - POL-GOV-002                  # Политика классификации информации
+
+related_to:
+  - POL-IAM-001                  # Политика управления паролями
+  - POL-IAM-003                  # Политика управления доступом
+  - POL-DAT-001                  # Политика защиты персональных данных
+  - POL-SEC-001                  # Политика реагирования на инциденты ИБ
+  - POL-DEV-001                  # Политика безопасной разработки
+
+regulatory_refs:
+  - "ISO/IEC 27001:2022 — A.5.10 (Acceptable use of information and other associated assets)"
+  - "ISO/IEC 27001:2022 — A.6.2 (Terms and conditions of employment)"
+  - "ISO/IEC 27001:2022 — A.6.3 (Information security awareness, education and training)"
+  - "ISO/IEC 27001:2022 — A.8.1 (User end point devices)"
+  - "ТК РФ — ст. 21 (основные обязанности работника)"
+  - "ТК РФ — ст. 81 (расторжение трудового договора по инициативе работодателя)"
+  - "ФЗ-149 — ст. 16 (защита информации)"
+  - "ФЗ-152 — ст. 18.1 ч. 1 п. 6 (обязанность обучения сотрудников)"
+  - "КоАП РФ — ст. 13.14 (разглашение информации с ограниченным доступом)"
+  - "УК РФ — ст. 272 (неправомерный доступ к компьютерной информации)"
+  - "УК РФ — ст. 274 (нарушение правил эксплуатации ЭВМ)"
+
+packs:
+  - minimum-starter
+  - iso-27001-aligned
+  - 152-fz-aligned
+
+tags:
+  - acceptable-use
+  - people
+  - awareness
+  - mandatory
+  - foundational
+
+authors:
+  - iMironRU
+contributors:
+  - iMironRU
+
+quality_signals:
+  industry_adoption: high
+  template_completeness: production-ready
+  examples_available: false

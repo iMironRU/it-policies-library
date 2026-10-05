@@ -2,7 +2,7 @@ id: POL-GOV-001
 title: Политика информационной безопасности
 slug: information-security-policy
 domain: 01-strategic
-version: 1.0
+version: 1.0.1
 status: active
 maturity: core
 conditional: false
@@ -18,6 +18,7 @@ related_to:
   - POL-IAM-001                  # Политика паролей
   - POL-DAT-001                  # Политика защиты данных
   - POL-SEC-001                  # Политика реагирования на инциденты ИБ
+  - POL-SEC-002                  # Политика управления уязвимостями
   - POL-HRM-001                  # Политика допустимого использования (AUP)
   - POL-MTA-001                  # Политика управления политиками
 

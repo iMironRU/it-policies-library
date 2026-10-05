@@ -1,0 +1,193 @@
+{
+  "policies/01-strategic/information-classification-policy/TEMPLATE.md": {
+    "history": [
+      {
+        "date": "2026-05-22",
+        "model": "deepseek-v4-flash",
+        "file": "reviews/information-classification-policy/TEMPLATE.deepseek-v4-flash.2026-05-22.md"
+      },
+      {
+        "date": "2026-05-22",
+        "model": "deepseek-v4-pro",
+        "file": "reviews/information-classification-policy/TEMPLATE.deepseek-v4-pro.2026-05-22.md"
+      },
+      {
+        "date": "2026-05-22",
+        "model": "gpt-4o-2024-08-06",
+        "file": "reviews/information-classification-policy/TEMPLATE.gpt-4o-2024-08-06.2026-05-22.md"
+      }
+    ],
+    "last_reviewed": "2026-05-22",
+    "last_model": "gpt-4o-2024-08-06"
+  },
+  "policies/01-strategic/information-security-policy/TEMPLATE.md": {
+    "history": [
+      {
+        "date": "2026-05-22",
+        "model": "deepseek-v4-flash",
+        "file": "reviews/information-security-policy/TEMPLATE.deepseek-v4-flash.2026-05-22.md"
+      },
+      {
+        "date": "2026-05-22",
+        "model": "gpt-4o-2024-08-06",
+        "file": "reviews/information-security-policy/TEMPLATE.gpt-4o-2024-08-06.2026-05-22.md"
+      }
+    ],
+    "last_reviewed": "2026-05-22",
+    "last_model": "gpt-4o-2024-08-06"
+  },
+  "policies/02-access-control/password-policy/TEMPLATE.md": {
+    "history": [
+      {
+        "date": "2026-05-22",
+        "model": "deepseek-v4-flash",
+        "file": "reviews/password-policy/TEMPLATE.deepseek-v4-flash.2026-05-22.md"
+      },
+      {
+        "date": "2026-05-22",
+        "model": "gpt-4o-2024-08-06",
+        "file": "reviews/password-policy/TEMPLATE.gpt-4o-2024-08-06.2026-05-22.md"
+      }
+    ],
+    "last_reviewed": "2026-05-22",
+    "last_model": "gpt-4o-2024-08-06"
+  },
+  "policies/04-data-protection/personal-data-protection-policy/TEMPLATE.md": {
+    "history": [
+      {
+        "date": "2026-06-23",
+        "model": "deepseek-v4-flash",
+        "file": "reviews/personal-data-protection-policy/TEMPLATE.deepseek-v4-flash.2026-06-23.md"
+      },
+      {
+        "date": "2026-06-23",
+        "model": "gpt-4o-2024-08-06",
+        "file": "reviews/personal-data-protection-policy/TEMPLATE.gpt-4o-2024-08-06.2026-06-23.md"
+      }
+    ],
+    "last_reviewed": "2026-06-23",
+    "last_model": "gpt-4o-2024-08-06"
+  },
+  "policies/12-development/secure-development-policy/TEMPLATE.md": {
+    "history": [
+      {
+        "date": "2026-10-02",
+        "model": "deepseek-flash",
+        "file": "reviews/secure-development-policy/TEMPLATE.deepseek-flash.2026-10-02.md"
+      },
+      {
+        "date": "2026-10-02",
+        "model": "gpt-4o-2024-08-06",
+        "file": "reviews/secure-development-policy/TEMPLATE.gpt-4o-2024-08-06.2026-10-02.md"
+      }
+    ],
+    "last_reviewed": "2026-10-02",
+    "last_model": "gpt-4o-2024-08-06"
+  },
+  "policies/18-security-operations/incident-response-policy/TEMPLATE.md": {
+    "history": [
+      {
+        "date": "2026-10-02",
+        "model": "gpt-4o-2024-08-06",
+        "file": "reviews/incident-response-policy/TEMPLATE.gpt-4o-2024-08-06.2026-10-02.md"
+      },
+      {
+        "date": "2026-10-02",
+        "model": "deepseek-flash",
+        "file": "reviews/incident-response-policy/TEMPLATE.deepseek-flash.2026-10-02.md"
+      },
+      {
+        "date": "2026-10-02",
+        "model": "deepseek-v4-pro",
+        "file": "reviews/incident-response-policy/TEMPLATE.deepseek-v4-pro.2026-10-02.md"
+      }
+    ],
+    "last_reviewed": "2026-10-02",
+    "last_model": "deepseek-v4-pro"
+  },
+  "policies/02-access-control/access-management-policy/TEMPLATE.md": {
+    "history": [
+      {
+        "date": "2026-10-02",
+        "model": "gpt-4o-2024-08-06",
+        "file": "reviews/access-management-policy/TEMPLATE.gpt-4o-2024-08-06.2026-10-02.md"
+      },
+      {
+        "date": "2026-10-02",
+        "model": "deepseek-v4-pro",
+        "file": "reviews/access-management-policy/TEMPLATE.deepseek-v4-pro.2026-10-02.md"
+      }
+    ],
+    "last_reviewed": "2026-10-02",
+    "last_model": "deepseek-v4-pro"
+  },
+  "policies/17-people/acceptable-use-policy/TEMPLATE.md": {
+    "history": [
+      {
+        "date": "2026-10-02",
+        "model": "gpt-4o-2024-08-06",
+        "file": "reviews/acceptable-use-policy/TEMPLATE.gpt-4o-2024-08-06.2026-10-02.md"
+      },
+      {
+        "date": "2026-10-02",
+        "model": "deepseek-v4-pro",
+        "file": "reviews/acceptable-use-policy/TEMPLATE.deepseek-v4-pro.2026-10-02.md"
+      },
+      {
+        "date": "2026-10-02",
+        "model": "deepseek-flash",
+        "file": "reviews/acceptable-use-policy/TEMPLATE.deepseek-flash.2026-10-02.md"
+      }
+    ],
+    "last_reviewed": "2026-10-02",
+    "last_model": "deepseek-flash"
+  },
+  "policies/15-suppliers/supplier-management-policy/TEMPLATE.md": {
+    "history": [
+      {
+        "date": "2026-10-02",
+        "model": "deepseek-flash",
+        "file": "reviews/supplier-management-policy/TEMPLATE.deepseek-flash.2026-10-02.md"
+      },
+      {
+        "date": "2026-10-02",
+        "model": "gpt-4o-2024-08-06",
+        "file": "reviews/supplier-management-policy/TEMPLATE.gpt-4o-2024-08-06.2026-10-02.md"
+      }
+    ],
+    "last_reviewed": "2026-10-02",
+    "last_model": "gpt-4o-2024-08-06"
+  },
+  "policies/05-continuity/business-continuity-policy/TEMPLATE.md": {
+    "history": [
+      {
+        "date": "2026-10-02",
+        "model": "deepseek-flash",
+        "file": "reviews/business-continuity-policy/TEMPLATE.deepseek-flash.2026-10-02.md"
+      },
+      {
+        "date": "2026-10-02",
+        "model": "gpt-4o-2024-08-06",
+        "file": "reviews/business-continuity-policy/TEMPLATE.gpt-4o-2024-08-06.2026-10-02.md"
+      }
+    ],
+    "last_reviewed": "2026-10-02",
+    "last_model": "gpt-4o-2024-08-06"
+  },
+  "policies/10-endpoint/endpoint-security-policy/TEMPLATE.md": {
+    "history": [
+      {
+        "date": "2026-10-02",
+        "model": "deepseek-flash",
+        "file": "reviews/endpoint-security-policy/TEMPLATE.deepseek-flash.2026-10-02.md"
+      },
+      {
+        "date": "2026-10-02",
+        "model": "gpt-4o-2024-08-06",
+        "file": "reviews/endpoint-security-policy/TEMPLATE.gpt-4o-2024-08-06.2026-10-02.md"
+      }
+    ],
+    "last_reviewed": "2026-10-02",
+    "last_model": "gpt-4o-2024-08-06"
+  }
+}
